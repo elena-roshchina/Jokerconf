@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/side_padding_2">
+    <TextView
+        android:id="@+id/agenda_date"
+        android:layout_width="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/side_padding_small"
+        tools:text="18 Oct"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/agenda_inner_layout"
+        android:layout_toEndOf="@+id/agenda_date">
+    <ImageView
+        android:id="@+id/agenda_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="@dimen/side_margin_11"
+        android:paddingBottom="@dimen/side_margin_11"
+        android:paddingStart="4dp"
+        android:paddingEnd="2dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="0dp"
+        tools:src="@drawable/baseline_verified_user_black_18dp" />
+    <TextView
+        android:id="@+id/agenda_title"
+        android:layout_toEndOf="@+id/agenda_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/side_padding_2"
+        android:paddingLeft="@dimen/side_margin_common"
+        android:layout_marginEnd="@dimen/side_padding_2"
+        tools:text="Breakfast"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/agenda_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/agenda_icon"
+        android:layout_below="@+id/agenda_title"
+        tools:text="10:15 - 10:30"
+        android:paddingBottom="@dimen/side_padding_2"
+        android:paddingLeft="@dimen/side_margin_common"
+        android:layout_marginEnd="@dimen/side_padding_2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+    </RelativeLayout>
+</RelativeLayout>

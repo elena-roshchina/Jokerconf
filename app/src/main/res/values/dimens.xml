@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_section_header_height">28dp</dimen>
+    <dimen name="side_margin_common">8dp</dimen>
+    <dimen name="side_padding_small">1dp</dimen>
+    <dimen name="side_padding_2">2dp</dimen>
+    <dimen name="talk_details_title_size">18sp</dimen>
+    <dimen name="talk_details_name_size">16sp</dimen>
+    <dimen name="talk_detail_title_topmargin">10dp</dimen>
+    <dimen name="talk_detail_size">16sp</dimen>
+    <dimen name="talk_detail_common_text">16sp</dimen>
+    <dimen name="side_margin_11">11dp</dimen>
+</resources>
